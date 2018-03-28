@@ -23,6 +23,7 @@
 <!--
 Description here.
 -->
+egg plugin for [jpush](https://github.com/jpush/jpush-api-nodejs-client)
 
 ## 依赖说明
 
@@ -42,6 +43,7 @@ egg-jpush 版本 | egg 1.x
 - multipart
 
 -->
+- [jpush-sdk](https://github.com/jpush/jpush-api-nodejs-client)
 
 ## 开启插件
 

@@ -1,3 +1,13 @@
-'use strict';
+'use strict'
 
-exports.keys = '123456';
+exports.jpush = {
+  app: true,
+  agent: false,
+  appKey: '123',
+  masterSecret: '123',
+  appName: '123',
+  isDebug: true
+
+}
+
+exports.keys = 'jpush'

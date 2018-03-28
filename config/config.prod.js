@@ -14,6 +14,6 @@ exports.jpush = {
   appKey: '',
   masterSecret: '',
   appName: '',
-  isDebug: true
+  isDebug: false
 
 }

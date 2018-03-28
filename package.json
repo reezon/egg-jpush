@@ -1,16 +1,20 @@
 {
   "name": "egg-jpush",
   "version": "1.0.0",
-  "description": "reezon",
+  "description": "jpush for egg",
   "eggPlugin": {
     "name": "jpush"
   },
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "jpush",
+    "jiguang"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "jpush-sdk": "^3.4.5"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",

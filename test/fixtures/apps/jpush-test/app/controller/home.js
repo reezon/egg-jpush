@@ -1,11 +1,12 @@
-'use strict';
+'use strict'
 
-const Controller = require('egg').Controller;
+const Controller = require('egg').Controller
 
 class HomeController extends Controller {
-  async index() {
-    this.ctx.body = 'hi, ' + this.app.plugins.jpush.name;
+  async index () {
+    // await this.app.jpush.sendToOne('120c83f7601980a06c3', 'hello world')
+    this.ctx.body = 'hi, ' + this.app.plugins.jpush.name
   }
 }
 
-module.exports = HomeController;
+module.exports = HomeController

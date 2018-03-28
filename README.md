@@ -23,12 +23,17 @@
 <!--
 Description here.
 -->
+egg plugin for [jpush](https://github.com/jpush/jpush-api-nodejs-client)
 
 ## Install
 
 ```bash
 $ npm i egg-jpush --save
 ```
+
+## Dependencies
+- [jpush-sdk](https://github.com/jpush/jpush-api-nodejs-client)
+
 
 ## Usage
 
@@ -45,6 +50,10 @@ exports.jpush = {
 ```js
 // {app_root}/config/config.default.js
 exports.jpush = {
+  appKey: '',
+  masterSecret: '',
+  appName: '',
+  isDebug: true
 };
 ```
 
@@ -53,6 +62,10 @@ see [config/config.default.js](config/config.default.js) for more detail.
 ## Example
 
 <!-- example here -->
+
+```js
+await this.app.jpush.sendToOne('120c83f7601980a06c3', 'hello world')
+```
 
 ## Questions & Suggestions
 
